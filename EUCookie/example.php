@@ -14,7 +14,7 @@
 			require_once("EuCookies.php");
 			
 			EuCookies::$lang = "en";
-			echo EuCookies::Install("/kolk");
+			echo EuCookies::Install();
 		?>
 	</body>
 </html>
