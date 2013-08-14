@@ -29,4 +29,4 @@ that's it! There are some options on Install method, so you can override default
 
 ## Localization
 
-You can use the Install() method optional parameters to set HTML text manually, but the project contains localized arrays in EuCookies.php, currently for English language. Please feel free to contribute with your language resource file!
+You can use the Install() method optional parameters to set HTML text manually, but the project contains localized arrays in EuCookies.php, currently for English language. Please feel free to contribute with your language in array!
