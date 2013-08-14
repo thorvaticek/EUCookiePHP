@@ -8,20 +8,21 @@ Install via adding EuCookies.php, EUCookies.script.html and EUCookies.scriptnoli
 
 First include JS and CSS files in header, bottom of the body or in the Bundle config:
 
-    <link href="~/Content/cookies_eu.css" rel="stylesheet" />
-    <script src="~/Scripts/jquery-2.0.3.js"></script>
-    <script src="~/Scripts/jquery.cookie.js"></script>
-    <script src="~/Scripts/cookies_eu.js"></script>
+    <link href="~/css/cookies_eu.css" rel="stylesheet" />
+    <script src="~/js/jquery-2.0.3.js"></script>
+    <script src="~/js/jquery.cookie.js"></script>
+    <script src="~/js/cookies_eu.js"></script>
     
 
 Then, simply call this line to inject a necessery HTML in <body> tag:
 
-    require_once("EuCookies.php");
+	require_once("EuCookies.php");
 			
-			//select language
-			EuCookies::$lang = "en";
-			echo EuCookies::Install();
+	//select language
+	EuCookies::$lang = "en";
+	echo EuCookies::Install();
 
+To see it in action check example.php
 
 that's it! There are some options on Install method, so you can override default text.
 
