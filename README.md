@@ -14,7 +14,7 @@ First include JS and CSS files in header, bottom of the body or in the Bundle co
     <script src="~/js/cookies_eu.js"></script>
     
 
-Then, simply call this line to inject a necessery HTML in <body> tag:
+Then, simply call this line to inject a necessery HTML in "body" tag:
 
 	require_once("EuCookies.php");
 			
