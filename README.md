@@ -1,6 +1,6 @@
 # What's this?
 
-Small PHP utility for displaying a user warning about using of cookies on the site (tested with PHP5, but should work on any framework). Ported from .NET to PHP: https://github.com/hudo/EUCookiesNET (this text is also from there :) Inspired by https://github.com/infinum/cookies_eu (that's were css and js scripts come from, thanx guys)!
+Small PHP utility for displaying a user warning about using of cookies on the site (tested with PHP5, but should work on any lower version). Ported from .NET to PHP: https://github.com/hudo/EUCookiesNET (this text is also from there :) thanx guy! Inspired by https://github.com/infinum/cookies_eu (that's were css and js scripts come from, thanx guys)!
 
 # Installation
 
